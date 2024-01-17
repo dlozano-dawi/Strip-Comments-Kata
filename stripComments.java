@@ -1,6 +1,6 @@
 public class stripComments {
     public static void main(String[] args) {
-        System.out.println(stripComment("apples, pears # and bananas\ngrapes\nbananas !apples   ", new String[] { "#", "!" }));
+        System.out.println(stripComment("apples, pears # and bananas\ngrapes\nbananas !apples", new String[] { "#", "!" }));
     }
     public static String stripComment (String text, String[] commentSymbols) {
         StringBuilder sb = new StringBuilder(text);
